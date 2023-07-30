@@ -10,6 +10,9 @@ This technique (Grad-CAM) reveals the exact spots in an image that drive the mod
 # Objective
 There are many advanced approaches in Grad-CAM (Ablation CAM, Grad-CAM++,..). In this project, I will be focussing on implementing the basic Grad-CAM, with minimal changes in your torch pipeline. Refer to grad_cam_compute_vision.py
 
+# Model Architecture Overview
+![image](https://github.com/DurgaSandeep25/Grad-CAM-Explanaible-AI/assets/38128597/8ad7ad1d-a8eb-4d92-8a38-dac440fbe7a1)
+
 # Training and Evaluation
 Curve is not smooth because of very small dataset during training and evaluation (due to GPU requirements)
 ![image](https://github.com/DurgaSandeep25/Grad-CAM-Explanaible-AI/assets/38128597/e2a2239c-77d6-455b-a410-46063c5570bb)
